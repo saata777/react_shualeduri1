@@ -18,7 +18,6 @@ body {
   height: 245px;
   flex-shrink: 0;
   border-radius: 10px;
-  background-image: url(card.png);
   position: absolute;
   top: 187px;
   left: 164px;
@@ -310,4 +309,9 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 2px;
 text-transform: uppercase;
+}
+.cardfoto {
+  position: absolute;
+  top: 187px;
+  left: 164px;
 }

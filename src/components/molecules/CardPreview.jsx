@@ -2,7 +2,7 @@ const CardPreview = ({ formData }) => {
   return (
     <div>
       <img src="./foni.png" alt="" />
-
+      <img src="./card.png" alt="" className="cardfoto"/>
       <div className="cardfront">
         <p className="cardnumber">
           {formData.cardNumber || "0000 0000 0000 0000"}
